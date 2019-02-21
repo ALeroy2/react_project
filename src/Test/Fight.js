@@ -4,14 +4,14 @@ import Player from "../JS/Player.js";
 var mon = new Monster({name:"Pierre",
                       life:200,
                       attack:10,
-                      defence:2,
+                      defense:2,
                       image:"https://cdn.discordapp.com/attachments/547037631322783757/547080433175887872/664573925_small.png"});
 
 var play = new Player({
   name:"hero",
   life:300,
   attack:20,
-  defence:0,
+  defense:0,
   image:null
 });
 //ajout à la page

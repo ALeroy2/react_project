@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Monster_cmp from './Component/Monster_cmp.js'
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Monster_cmp/>
       </div>
     );
   }
