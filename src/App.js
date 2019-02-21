@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Monster_cmp from './Component/Monster_cmp.js'
+import Player_cmp from './Component/Player_cmp.js'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           </a>
         </header>
         <Monster_cmp/>
+        <Player_cmp/>
       </div>
     );
   }

@@ -11,4 +11,14 @@ export default class Firebase{
     firebase.initializeApp(config);
     this.db = firebase.firestore();
   }
+
+  async addData(data) {
+    let newData;
+    try{
+      newData = await this.db.collection("users").add(data);
+      console.log("Document written with ID: ", newData.id);
+    }catch{
+      console.error("Error adding document: ", error);
+    }
+  }
 }
